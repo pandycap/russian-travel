@@ -1,0 +1,35 @@
+.footer__link {
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 112%;
+    color: #FFFFFF;
+    margin-left: 18px;
+}
+
+.footer__link:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+	.footer__link {
+        margin-top: 32px;
+        margin-left: 0;
+	}
+
+	.footer__link:nth-of-type(1) {
+        margin: 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.footer__link {
+		font-size: 16px;
+	}
+}
