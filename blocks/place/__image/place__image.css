@@ -20,6 +20,5 @@
 	.place__image {
         max-width: 340px;
         width: calc(100% + 16px*2);
-        margin-left: -16px;
 	}
 }

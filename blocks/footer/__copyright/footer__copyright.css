@@ -7,10 +7,12 @@
     color: #FFFFFF;
     margin: 0 0;
     justify-self: right;
+    align-self: center;
 }
 
 @media screen and (max-width: 767px) {
 	.footer__copyright {
-		margin-top: 48px;
+        margin-top: 48px;
+        align-self: start;
 	}
 }

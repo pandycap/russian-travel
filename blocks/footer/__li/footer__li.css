@@ -1,0 +1,28 @@
+.footer__li {
+    margin-right: 18px;
+}
+
+.footer__li:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.footer__li:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+	.footer__li {
+        margin-top: 32px;
+        margin-left: 0;
+	}
+
+	.footer__li:nth-of-type(1) {
+        margin: 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.footer__li {
+		font-size: 16px;
+	}
+}

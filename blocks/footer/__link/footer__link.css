@@ -1,12 +1,11 @@
 .footer__link {
-    text-decoration: none;
-    font-family: Inter;
+    font-family: "Inter", "Arial ", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 112%;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
     color: #FFFFFF;
-    margin-left: 18px;
 }
 
 .footer__link:nth-of-type(1) {

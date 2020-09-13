@@ -1,56 +1,53 @@
 .cover {
     width: 100%;
     max-width: 1184px;
-    height: 594px;
+    min-height: 594px;
     margin: 102px 0 0;
-    background-image: url(../../images/cover-trains.jpg);
+    background-image: url(../../images/cover-trains.png);
     background-size: cover;
-    text-decoration: none;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 767px) {
     .cover {
         margin-top: 64px;
-        width: calc(100% + 48px*2);
     }
 }
 
 @media screen and (max-width: 374px) {
     .cover {
-        height: 200px;
-        width: calc(100% + 16px*2);
+        min-height: 200px;
     }
 }
 
 @media screen and (min-width: 375px) and (max-width: 449px) {
     .cover {
         margin-top: 48px;
-        height: 272px;
+        min-height: 272px;
     }
 }
 
 @media screen and (min-width: 450px) and (max-width: 599px) {
     .cover {
-        height: 330px;
+        min-height: 330px;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
     .cover {
-        height: 420px;
+        min-height: 420px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
-        height: 500px;
-        width: calc(100% + 48px*2);
+        min-height: 500px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover {
-        height: 562px;
+        min-height: 562px;
         width: calc(100% + 48px*2);
     }
 }

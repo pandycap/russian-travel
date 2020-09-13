@@ -9,10 +9,6 @@
     color: #ffffff;
 }
 
-.header__link:nth-child(1) {
-    text-decoration: underline;
-}
-
 .header__link:hover {
     opacity: 0.8;
 }
