@@ -9,3 +9,9 @@
         display: none;
         }
 }
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+	.place__website {
+		margin: 0 16px;
+	}
+}
