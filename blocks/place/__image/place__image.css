@@ -23,6 +23,12 @@
 	}
 }
 
+@media screen and (max-width: 350px) {
+	.place__image {
+		max-width: 320px;
+	}
+}
+
 @media screen and (min-width: 350px) and (max-width: 767px) {
 	.place__image {
 		margin: 0 16px;

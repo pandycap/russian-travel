@@ -6,10 +6,6 @@
     margin-left: 0;
 }
 
-.footer__li:hover {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 767px) {
 	.footer__li {
         margin-top: 32px;

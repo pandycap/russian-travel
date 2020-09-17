@@ -16,6 +16,25 @@
 
 @media screen and (min-width: 1024px) {
 	.intro__text {
-		width: 683px;
+        width: 683px;
+        margin: 0 0 32px;
 	}
+}
+
+@media screen and (max-width: 449px) {
+	.intro__text {
+        margin: 0 16px 32px 0;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 767px) {
+	.intro__text {
+        margin: 0 20px 32px 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.intro__text {
+        margin: 0 24px 32px 0;
+    }
 }
